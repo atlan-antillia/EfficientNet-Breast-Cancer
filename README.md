@@ -51,12 +51,12 @@ Please download the dataset <b>BreaKHis_v1</b> from the following web site:
 <br>
 <br>
 The original images of <b>benign</b> and <b>malignant</b> in <b>BreaKHis_v1</b> are stored in the
-separated folders:<br>
+separated folders as shown below:<br>
 <img src="./asset/BreaKHis_v1_histology_slides_breast_malignant_SOB_papillary_carcinoma_SOB_M_PC_14-9146_400X.png" 
 width="840" height="auto"><br>
 <br>
-For simplicy, we have selected the images in 400X folders only, and placed them in
-<b> BreaKHis_V1_400X</b> as show below:<br> 
+For simplicy, we have selected the images in 400X folders only, and created
+<b> BreaKHis_V1_400X</b> dataset which contains <b>test</b> and <b>train</b>.<br> 
 
 
 <pre>

@@ -25,8 +25,7 @@
 <br>
 https://web.inf.ufpr.br/vri/
 <br>
-<br>
-<br>We use python 3.8 and tensorflow 2.8.0 environment on Windows 11.<br><br>
+<br>We use python 3.8 and tensorflow 2.8.0 environment on Windows 11.<br>
 <h3>
 <a id="1.1">1.1 Clone repository</a>
 </h3>

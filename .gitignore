@@ -127,3 +127,7 @@ dmypy.json
 
 # Pyre type checker
 .pyre/
+
+efficientnetv2-m/
+projects/Breast-Cancer/BreaKHis_V1_400X/
+projects/Breast-Cancer/models/

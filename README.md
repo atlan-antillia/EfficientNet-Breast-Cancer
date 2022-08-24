@@ -1,7 +1,8 @@
 <h2>EfficientNet-Breast-Cancer (Updated: 2022/08/24)</h2>
 <a href="#1">1 EfficientNetV2 Breast Cancer BreaKHis Classification </a><br>
 <a href="#1.1">1.1 Clone repository</a><br>
-<a href="#1.2">1.2 Install Python packages</a><br>
+<a href="#1.2">1.2 Prepare Breast Cancer dataset</a><br>
+<a href="#1.3">1.3 Install Python packages</a><br>
 <a href="#2">2 Python classes for Breast Cancer Classification</a><br>
 <a href="#3">3 Pretrained model</a><br>
 <a href="#4">4 Train</a><br>
@@ -21,11 +22,11 @@
 
  This is an experimental Breast Cancer BreaKHis_V1_400X Classification project based on <b>efficientnetv2</b> in <a href="https://github.com/google/automl">Brain AutoML</a>.
 <br>
- The original Breast Cancer dataset BreaKHis_v1 has been taken from the following web site:<br>
+ The original Breast Cancer dataset BreakHis_v1 has been taken from the following web site:<br>
 <b>Laboratório Visão Robótica e Imagem</b>
 <br>
 <a href="https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/">
-Breast Cancer Histopathological Database (BreaKHis)
+Breast Cancer Histopathological Database (BreakHis)
 </a>
 <br>
 <br>We use python 3.8 and tensorflow 2.8.0 environment on Windows 11.<br>
@@ -47,17 +48,21 @@ You will have the following directory tree:<br>
         ├─inference        
         └─test
 </pre>
-Please download the dataset <b>BreaKHis_v1</b> from the following web site:
+<h3>
+<a id="1.2">1.2 Prepare Breast Cancer dataset</a>
+</h3>
+
+Please download the dataset <b>BreakHis_v1</b> from the following web site:
 <br>
 <a href="https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/"><b>Breast Cancer Histopathological Database (BreakHis)</b></a>
 <br>
 <br>
-The original images of <b>benign</b> and <b>malignant</b> in <b>BreaKHis_v1</b> are stored in the
-separated folders, 40X, 100X, 200X and 400X as shown below:<br>
+The original images (700X460 pixels, 3-channel RGB, 8-bit depth in each channel, PNG format) of <b>benign</b> and <b>malignant</b> in <b>BreakHis_v1</b> 
+are stored in the different folders specified by magnifying factors (40X, 100X, 200X and 400X) as shown below:<br>
 <img src="./asset/BreaKHis_v1_histology_slides_breast_malignant_SOB_papillary_carcinoma_SOB_M_PC_14-9146_400X.png" 
 width="840" height="auto"><br>
 <br>
-For simplicy, we have selected the images in all 400X folders only, and created
+For simplicity, we have selected the images in all 400X folders only, and created
 <b> BreaKHis_V1_400X</b> dataset which contains <b>test</b> and <b>train</b>.<br> 
 
 
@@ -95,7 +100,7 @@ The number of images in test dataset:<br>
 <br>
 
 <h3>
-<a id="#1.2">1.2 Install Python packages</a>
+<a id="#1.3">1.3 Install Python packages</a>
 </h3>
 Please run the following commnad to install Python packages for this project.<br>
 <pre>

@@ -57,7 +57,7 @@ separated folders, 40X, 100X, 200X and 400X as shown below:<br>
 <img src="./asset/BreaKHis_v1_histology_slides_breast_malignant_SOB_papillary_carcinoma_SOB_M_PC_14-9146_400X.png" 
 width="840" height="auto"><br>
 <br>
-For simplicy, we have selected the images in 400X folders only, and created
+For simplicy, we have selected the images in all 400X folders only, and created
 <b> BreaKHis_V1_400X</b> dataset which contains <b>test</b> and <b>train</b>.<br> 
 
 
@@ -239,11 +239,17 @@ Training console output:<br>
 <img src="./asset/Breast_Cancer_train_console_output_at_epoch_25_0824.png" width="740" height="auto"><br>
 <br>
 Train_accuracies:<br>
+<!--
 <img src="./asset/Breat_Cancer_accuracies_at_epoch_25_0824.png" width="740" height="auto"><br>
+-->
+<img src="./projects/Breast-Cancer/eval/train_accuracies.png" width="640" height="auto"><br>
 
 <br>
 Train_losses:<br>
+<!--
 <img src="./asset/Breast_Cancer_train_losses_at_epoch_25_0824.png" width="740" height="auto"><br>
+-->
+<img src="./projects/Breast-Cancer/eval/train_losses.png" width="640" height="auto"><br>
 
 <br>
 <h2>

@@ -23,7 +23,9 @@
  The original Breast Cancer dataset BreaKHis_v1 has been taken from the following web site:<br>
 <b>Laboratório Visão Robótica e Imagem</b>
 <br>
-https://web.inf.ufpr.br/vri/
+<a href="https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/">
+Breast Cancer Histopathological Database (BreaKHis)
+</a>
 <br>
 <br>We use python 3.8 and tensorflow 2.8.0 environment on Windows 11.<br>
 <h3>
@@ -46,7 +48,7 @@ You will have the following directory tree:<br>
 </pre>
 Please download the dataset <b>BreaKHis_v1</b> from the following web site:
 <br>
-<a href="https://web.inf.ufpr.br/vri/"><b>Laboratório Visão Robótica e Imagem</b></a>
+<a href="https://web.inf.ufpr.br/vri/databases/breast-cancer-histopathological-database-breakhis/"><b>Breast Cancer Histopathological Database (BreakHis)</b></a>
 <br>
 <br>
 The original images of <b>benign</b> and <b>malignant</b> in <b>BreaKHis_v1</b> are stored in the

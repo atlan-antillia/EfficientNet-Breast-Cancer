@@ -19,7 +19,8 @@
 <a id="1">1 EfficientNetV2 Breat Cancer BreaKHis Classification</a>
 </h2>
 
- This is an experimental Breast Cancer BreaKHis_V1_400X Classification project based on <b>efficientnetv2</b> in <a href="https://github.com/google/automl">Brain AutoML</a>
+ This is an experimental Breast Cancer BreaKHis_V1_400X Classification project based on <b>efficientnetv2</b> in <a href="https://github.com/google/automl">Brain AutoML</a>.
+<br>
  The original Breast Cancer dataset BreaKHis_v1 has been taken from the following web site:<br>
 <b>Laboratório Visão Robótica e Imagem</b>
 <br>

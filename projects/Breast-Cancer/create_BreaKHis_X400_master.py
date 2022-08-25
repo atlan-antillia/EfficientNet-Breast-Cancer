@@ -24,12 +24,12 @@ import shutil
 import traceback
 
 
-def create_BreaKHvis_X400_master(source_dir, dest_dir):
+def create_BreaKHis_X400_master(source_dir, dest_dir):
   if os.path.exists(dest_dir):
     shuti.rmtree(dest_dir)
   if not os.path.exists(dest_dir):
     os.makedirs(dest_dir)
-  print("--- create_BreaKHvis_X400_master {} {}".format(source_dir, dest_dir))
+  print("--- create_BreaKHis_X400_master {} {}".format(source_dir, dest_dir))
   pattern = source_dir + "/SOB/*/*/400X/*.png"
   files = glob.glob(pattern)
   n = 1
@@ -43,8 +43,8 @@ if __name__ == "__main__":
   source_top_dir = "D:/BreaKHis_v1/histology_slides/breast/"
   dest_top_dir   = "c:/work/BreaKHvis_v1_400X/master"
   if len(sys.argv) == 3:
-    source_top_dir = argv[1]
-    dest_top_dir   = argv[2]
+    source_top_dir = sys.argv[1]
+    dest_top_dir   = sys.argv[2]
   
   if not os.path.exists(source_top_dir):
     raise Exception("Not found source_top_dir " + source_top_dir)
@@ -62,7 +62,7 @@ if __name__ == "__main__":
         raise Exception("Invalid source_dir " + source_dir)
 
       dest_dir   = os.path.join(dest_top_dir, sub_dir)
-      create_BreaKHvis_X400_master(source_dir, dest_dir)
+      create_BreaKHis_X400_master(source_dir, dest_dir)
 
   except:
     traceback.print_exc()

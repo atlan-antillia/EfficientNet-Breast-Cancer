@@ -88,7 +88,7 @@ create_BreaKHis_X400_master.py</a>:<br>
 >python create_BreaKHis_X400_master.py
 </pre>
 Also, you can easily split the generated master dataset into train and test by running
-<a href="./projects/Breast-Cancer/split_master.py">split_master</a>:
+<a href="./projects/Breast-Cancer/split_master.py">split_master.py</a>:
 <pre>
 >python split_master.py
 </pre>

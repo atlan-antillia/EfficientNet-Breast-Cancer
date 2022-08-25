@@ -15,7 +15,7 @@
 
 # 2022/08/26 Copyright (C) antillia.com
 
-# create_BreaKHvis_X400_master.py
+# create_BreaKHis_X400_master.py
 
 import os
 import sys

@@ -84,7 +84,7 @@ If you would like to create <b>BeaKHis_V1_400X/master</b> dataset from
 the original dataset BreaKHis_v1, please move to ./projects/Breast-Cancer/ directory
 , and run the following script:<br>
 <pre>
->python create_BreaKHvis_X400_master.py
+>python create_BreaKHis_X400_master.py
 </pre>
 Also, you can easily create train and test dataset from the generated master dataset by using 
 <b>split-folders</b> package.

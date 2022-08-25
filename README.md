@@ -81,13 +81,18 @@ For simplicity, we have selected the images in all 400X folders only, and create
 　...
 </pre>
 If you would like to create <b>BeaKHis_V1_400X/master</b> dataset from 
-the original dataset BreaKHis_v1, please move to ./projects/Breast-Cancer/ directory
-, and run the following script:<br>
+the original dataset <b>BreaKHis_v1</b>, please move to ./projects/Breast-Cancer/ directory
+, and run the following script <a href="./projects/Breast-Cancer/create_BreaKHis_X400_master.py">
+create_BreaKHis_X400_master.py</a>:<br>
 <pre>
 >python create_BreaKHis_X400_master.py
 </pre>
-Also, you can easily create train and test dataset from the generated master dataset by using 
-<b>split-folders</b> package.
+Also, you can easily split the generated master dataset into train and test by running
+<a href="./projects/Breast-Cancer/split_master.py">split_master</a>:
+<pre>
+>python split_master.py
+</pre>
+ 
 <br><br>
 Sample images of BreaKHis_V1_400X/malignant:<br>
 <img src="./asset/Brest_Cancer_BreaKHis_V1_400X_malignant.png" width="840" height="auto">

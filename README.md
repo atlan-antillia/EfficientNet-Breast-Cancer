@@ -1,4 +1,4 @@
-<h2>EfficientNet-Breast-Cancer (Updated: 2022/08/24)</h2>
+<h2>EfficientNet-Breast-Cancer (Updated: 2022/09/01)</h2>
 <a href="#1">1 EfficientNetV2 Breast Cancer BreaKHis Classification </a><br>
 <a href="#1.1">1.1 Clone repository</a><br>
 <a href="#1.2">1.2 Prepare Breast Cancer dataset</a><br>
@@ -30,6 +30,11 @@ Breast Cancer Histopathological Database (BreakHis)
 </a>
 <br>
 <br>We use python 3.8 and tensorflow 2.8.0 environment on Windows 11.<br>
+<br>
+<li>
+2022/09/01: Updated EfficientNetV2Inferencer.py.
+</li>
+
 <h3>
 <a id="1.1">1.1 Clone repository</a>
 </h3>
@@ -103,12 +108,9 @@ Sample images of BreaKHis_V1_400X/benign:<br>
 <br> 
 <br>
 
-The number of images in train dataset:<br>
-<img src="./asset/BreaKHis_V1_400X_train.png" width="540" height="auto">
-<br>
-<br>
-The number of images in test dataset:<br>
-<img src="./asset/BreaKHis_V1_400X_test.png" width="540" height="auto">
+The number of images in train and test dataset:<br>
+<img src="./projects/Breast-Cancer/_BreaKHis_V1_400X_.png" width="640" height="auto">
+
 <br>
 <br>
 

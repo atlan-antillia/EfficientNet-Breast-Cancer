@@ -238,6 +238,10 @@ class EfficientNetV2ModelTrainer:
       verbose=1
       )
 
+    #2022/08/26
+    epch_callback.save_eval_graphs()
+
+    
 def main(_) -> None:
 
   trainer = EfficientNetV2ModelTrainer()
